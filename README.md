@@ -16,11 +16,11 @@
 > > Arapahoe: 6.7% (24,801)
 
     These Amounts where found by the following block of code:
-,,, py
+''' py
     county_percentage = float(votes_by_county) / float(total_votes) * 100
     county_results = (
         f"{county_name}: {county_percentage:.1f}% ({votes_by_county:,})")
-,,,
+'''
 
 ##### *Largest County*
     From the county percentage data, it is shown that Denver had the largest turnout of voters for the election. 
@@ -32,12 +32,12 @@
 >Raymon Anthony Doane: 3.1% (11,606)
 
     These amounts where found by the following block of code:
-,,, py
+''' py
     votes = candidate_votes.get(candidate_name)
     vote_percentage = float(votes) / float(total_votes) * 100
     candidate_results = (
         f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-,,,
+'''
 ##### *Election Winner*
     From the Candidate percentage data, it is shown that Diana DeGette won the popular vote by over 50% (187,679 votes) more of the runner-up. 
 
