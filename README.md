@@ -16,7 +16,7 @@
 > > Arapahoe: 6.7% (24,801)
 
     These Amounts where found by the following block of code:
-''' py
+'''
     county_percentage = float(votes_by_county) / float(total_votes) * 100
     county_results = (
         f"{county_name}: {county_percentage:.1f}% ({votes_by_county:,})")
@@ -32,7 +32,7 @@
 >Raymon Anthony Doane: 3.1% (11,606)
 
     These amounts where found by the following block of code:
-''' py
+'''
     votes = candidate_votes.get(candidate_name)
     vote_percentage = float(votes) / float(total_votes) * 100
     candidate_results = (
